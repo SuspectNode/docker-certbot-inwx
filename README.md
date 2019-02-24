@@ -1,6 +1,6 @@
 # docker-certbot-inwx
 
-Permantly running container with certbot and plugin for [INWX](https://www.inwx.com/) DNS challange. A renew of all certificates is triggered every 12 hours.
+Permanently running container with certbot and plugin for [INWX](https://www.inwx.com/) DNS challenge. A renew of all certificates is triggered every 12 hours.
 
 Big shout out to [oGGy990/certbot-dns-inwx](https://github.com/oGGy990/certbot-dns-inwx) for the DNS plugin.
 
@@ -12,7 +12,7 @@ Create directory for persistent data storage, e.g.:
 mkdir -p ~/docker/certbot-inwx
 ```
 
-Create an INWX configuration file `inwx.cfg`. See [oGGy990/certbot-dns-inwx](https://github.com/oGGy990/certbot-dns-inwx) for more detailed information.
+Create the INWX configuration file `inwx.cfg`. See [oGGy990/certbot-dns-inwx](https://github.com/oGGy990/certbot-dns-inwx) for more detailed information.
 
 ```
 certbot_dns_inwx:dns_inwx_url           = https://api.domrobot.com/xmlrpc/
